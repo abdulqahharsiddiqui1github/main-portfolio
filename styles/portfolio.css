@@ -1,0 +1,46 @@
+/* code shared starts from here */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 15px 35px;
+    font-weight:700;
+    font-size: 20;
+}
+span{
+    color:#FD6E0A;
+}
+/* code shared end here */
+
+/* codding of header starts from here */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-titile{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav > ul > li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #474747;
+}
+/* codding of nav end here */
