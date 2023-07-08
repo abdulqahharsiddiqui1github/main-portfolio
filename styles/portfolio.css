@@ -158,3 +158,26 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    display: flex;
+    padding: 30px 100px;
+    gap: 50px;
+}
+.resume-item-description, .resume-time-instute{
+    color: #757575;
+}
+.resume-time-instute{
+    margin: 0 0 10px 0;
+}
+.resume-itme-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.resume-container hr{
+    margin: 20px 0;
+}
+.diownload-cv{
+    text-align: center;
+}
