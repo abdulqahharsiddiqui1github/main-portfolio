@@ -6,7 +6,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.btn{
+.primary-btn{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -19,11 +19,12 @@ span{
 }
 /* code shared end here */
 
-/* codding of header starts from here */
+/* codding of nav style starts from here */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-titile{
     color: #181818;
@@ -43,4 +44,15 @@ nav > ul > li > a{
     text-decoration: none;
     color: #474747;
 }
-/* codding of nav end here */
+/* codding of nav style end here */
+
+/* header related  style */
+.benner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 500px;
+    /* flex-shrink: 0; */
+}
