@@ -181,3 +181,14 @@ main section{
 .diownload-cv{
     text-align: center;
 }
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 200px;
+}
+.social-link{
+    text-align: center;
+
+}
